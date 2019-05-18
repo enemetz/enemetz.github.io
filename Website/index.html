@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" href = "evanWeb.css">
+<title>Welcome</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Jumbotron styling-->
+<style>
+.jumbotron {
+        background-color: "aqua-gradient color-block";
+        background-size:cover;
+        height: 100%;
+    }
+body{
+    background-color: #2e2e30;
+}
+nav{
+    background-color: #282828;
+}
+</style>
+
+</head>
+<body>
+    <!--Navbar-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class = "navbar-brand" href = "#"></a>
+    <div id ="navbarsExampleDefault" class = "collapse navbar-collapse">
+        <ul class = "navbar-nav mr-auto">
+            <button class = "navbar-toggler" type = "button" data-toggle="collapse"
+            data-target ="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation"><span class = "navbar-toggler-icon"></span></button>
+            <li class = "nav-item active">
+               <a class = "nav-link" href = "#">Home
+                   <span class = "sr-only">(current)</span>
+               </a> 
+            </li>
+            <li class="nav-item active">
+                <a class = "nav-link" href = "Projects.html">Projects</a>
+            </li>
+            <li class = "nav-item active">
+                <a class = "nav-link" href = "Contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Jumbotron-->
+<div class = "container-full-bg">
+<main role = "main">
+    <div class="jumbotron jumbotron-fluid">
+        <div class = "container">
+            <h1 class = "display-3">Hi, I'm Evan Nemetz</h1>
+            <div class = "jumbop">
+            <p>I am a third year undergraduate student studying Computer Science at Rutgers University, with an
+                expected graduation of fall 2020. I am passionate about learning new technologies and have 
+                projects built with various stacks to explore.
+            </p>
+            </div>
+            <p>
+            <a class = "btn btn-primary" href =  "Software Resume.pdf">Resumé</a> &nbsp;
+            <a href = "https://www.linkedin.com/in/evan-nemetz-64282a15b/">
+                <img src = "In-Blue-26.png"> &nbsp;
+                <a href = "https://github.com/enemetz">
+                    <img src = "GitHub-Mark-32px.png" height = "26px" width = "26px">
+                    </a>
+                </p>
+            </a>
+        </div>
+    </div>
+</div>
+<!--Row of Cards-->
+<div class = "container">
+    <div class = "row">
+        <div class = "card" style = "width:20rem; height:24rem;">
+            <div class ="card-body">
+                <!--Skills card-->
+                <h4 class = "card-title"><u>Skills</u></h4>
+                <h6>Most Proficient:</h6>
+                <p class = "card-text">Java, Swift, C++</p>
+                <h6>Experience with:</h6>
+                <p class = "card-text">HTML, CSS, Haskell, Prolog</p>
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class = "card" style="width:20rem; height:24rem;">
+            <div class = "card-body">
+                <!--Education card-->
+                <h4 class = "card-title"><u>Education</u></h4>
+                <h6>Bergen Community College:</h6>
+                <p class = "card-text">A.S in Computer Science: 2018</p>
+                <h6>Rutgers University:</h6>
+                <p class = "card-text"> B.S in Computer Science: Expected Graduation 2020</p>
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <div class = "card" style = "width:20rem; height:24rem;">
+            <div class = "card-body">
+                <h4 class = "card-title"><u>Experience</u></h4>
+                <h6>Sales Associate at Modell's Sporting Goods:</h6>
+                <p class = "card-text">2016-2017</p>
+                <h6>Merchandising at Best Buy:</h6>
+                <p class = "card-text">2017-2018</p>
+            </div>
+        </div>
+       </div>
+    </div>
+    
+</div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
+<!--'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;-->
