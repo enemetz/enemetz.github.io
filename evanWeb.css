@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.jumbotron{
+    background-image: linear-gradient(to right, aqua, rgb(75, 182, 89));
+}
+.jumbop{
+    color:black;
+}
+.btn-primary{
+    height:34;
+    color:#007bff;
+}
+.Github{
+    height: 50px;
+    width: 50px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+.card-text{
+    color:white;
+    
+}
+.card-title{
+    color:white;
+    
+}
+.card-body{
+    background-color: #282828;
+    color: #282828; 
+}
+h5{
+    color:white;
+}
+h6{
+    color:white;
+}
+.card-text2{
+    color:white;
+}
+
