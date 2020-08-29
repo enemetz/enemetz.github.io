@@ -11,6 +11,23 @@ font{
 }
 
 .carousel {
-    margin: 0 auto;
+    margin: 0;
+    position: center;
+}
+
+.row {
+    position: center;
+}
+
+.card {
+    padding: 40px;
+}
+
+.carousel-control-next-icon {
+    color: cadetblue;
+}
+
+.carousel-control-prev-icon {
+    color: cadetblue;
 }
 
