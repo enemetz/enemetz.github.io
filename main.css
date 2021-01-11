@@ -1,27 +1,65 @@
-font{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.jumbotron {
-    box-sizing: border-box;
-    padding: 4rem 2rem;
-    padding-top: 4rem;
-    padding-right: 2rem;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
+.profile {
+    padding-top: 100px;
 }
 
-.carousel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+h2 {
+    font-family: SFUIDisplay, sans-serif;
 }
 
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='lightskyblue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+h1 {
+    font-family: SFUIDisplay, sans-serif;
 }
 
-
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='lightskyblue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+h4 {
+    font-family: SFUIDisplay, -apple-system, sans-serif;
 }
+
+.project-header {
+    padding-top: 40px;
+}
+.button-primary {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+a {
+    padding-bottom: 5px;
+}
+
+.education{
+    padding-bottom: 25px;
+}
+
+.bergen {
+    text-align: left;
+    align-content: start;
+    align-self: start;
+}
+
+.RU {
+    padding-bottom: 50px;
+}
+
+.bachelor {
+    padding-bottom: 20px;
+}
+
+.as {
+    padding-bottom: 20px;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.comments {
+    padding-bottom: 50px;
+}
+
+.form-floating {
+    padding-bottom: 20px;
+}
+
+form {
+    padding-bottom: 100px;
+}
+
