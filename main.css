@@ -1,5 +1,47 @@
+
 .profile {
     padding-top: 100px;
+    background: rgb(116,88,221);
+    min-width: 100%;
+    min-height: 60vh;
+    background: linear-gradient(114deg, rgba(116,88,221,1) 11%, rgba(247,156,62,1) 98%);
+}
+
+
+
+
+.welcome {
+    margin: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 60%;
+}
+
+.info-card {
+    text-align: start;
+    color: white;
+}
+
+.name {
+    text-align: start;
+}
+
+.intro-pic {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+}
+
+.project {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 4px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 60%;
+    padding: 20px;
 }
 
 h2 {
@@ -15,7 +57,7 @@ h4 {
 }
 
 .project-header {
-    padding-top: 40px;
+    padding: 20px;
 }
 .button-primary {
     padding-bottom: 10px;

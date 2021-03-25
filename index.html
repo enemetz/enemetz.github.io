@@ -2,55 +2,66 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Evan Nemetz | Home</title>
+    <title>Evan Nemetz | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="main.css" rel="stylesheet">
     <link rel="icon" href="IMG_0435.PNG" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <header class="profile">
+        <nav class="navbar navbar-expand-md fixed-top">
             <div class="container-fluid">
-                <h4 class="navbar-brand">Evan Nemetz</h4>
+                <h4 class="navbar-brand text-white" href="#">Evan Nemetz</h4>
             </div>
         </nav>
-    </header>
-    <main>
-        <div class="container profile">
-            <div class="col-lg-12 text-center align-content-center">
-                <img class="profile-pic rounded-circle" width="150" height="150" src="IMG_1960(1).JPG" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#777"></rect>
-                <h2>Welcome to my portfolio</h2>
-                <p>Hi, I am Evan. I am a software developer with experience in a wide range of <br>different technologies. Below you will
-                find a few examples of my work. <br>Please reach out if you have any questions.</p>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <a href="https://github.com/enemetz">
-                            <img src="GitHub-Mark-32px.png" width="32" height="32">
+        <div class="container">
+            <section class="">
+                <div class="row featurette welcome">
+                    <div class="col-md-5 align-items-center">
+                        <img class="intro-pic" width="375" height="500" src="IMG_1960(1).JPG" alt="Image of Evan">
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="featurette-heading text-white name">Evan Nemetz</h1>
+                        <h4 class="text-white info-card">Software Developer</h4>
+                        <h6 class="info-card lead">Email: &nbsp; evan@evannemetz.com</h6>
+                        <h6 class="info-card lead">Github: enemetz</h6>
+                        <a class="info-card" href="https://github.com/enemetz">
+                            <img src="GitHub-Mark-32px.png" width="32" height="32" alt="Github logo">
                         </a> &ensp;
-                        <a href="https://linkedin.com/in/evannemetz">
-                            <img src="LI-In-Bug.png" width="38" height="32">
+                        <a class="info-card" href="https://linkedin.com/in/evannemetz">
+                            <img src="LI-In-Bug.png" width="38" height="32" alt="LinkedIn logo">
                         </a>
                     </div>
-
                 </div>
-                <h1 class="project-header">Projects</h1>
-                <hr class="featurette-divider">
-                <div class="row featurette">
+            </section>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="col-lg-12">
+            <h1 class="project-header">About Me</h1>
+            <p class="lead">Hi, I am Evan. I am a software developer with experience building a wide range wide range of
+                different technologies from native mobile apps to web apps and to even AI. <br> Below you will find a few examples of my work.
+                Please reach out if you have any questions.</p>
+            <h1 class="project-header">Projects</h1>
+                <div class="row featurette project">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Websight for iOS</h2>
                         <p class="lead">Designed and built an iOS app with Swift. Websight lets a user scan data from the camera, then websight will setect the type
-                        of data, and then prompt the user with shortcuts based on the data type.</p>
-                        <a type="button" class="btn btn-primary" href="https://apps.apple.com/us/app/websight/id1508181543">See it on the app store</a>
+                            of data, and then prompt the user with shortcuts based on the data type.</p>
+                        <a href="https://apps.apple.com/us/app/websight/id1508181543">
+                            <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg">
+                        </a>
                     </div>
                     <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" src="iPhone-XS-Max-phone.jpg" width="350" height="350" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <img class="featurette-image" src="iPhone-XS-Max-phone.jpg" width="284" height="609" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </div>
 
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
+                &nbsp;
+                <div class="row featurette project">
                     <div class="col-md-7 order-md-2">
                         <h2 class="featurette-heading">PiBell</h2>
                         <p class="lead">Product owner and developer for PiBell contactless doorbell. Worked on implementing livestream feature to show camera feed from raspberry pi
@@ -61,21 +72,19 @@
                     <div class="col-md-5 order-md-1">
                         <img class="featurette-image img-fluid mx-auto" src="pibellpng.png" width="284" height="609" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </div>
-                </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
+                </div> &nbsp;
+                <div class="row featurette project">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">HueDeck</h2>
                         <p class="lead">Built a dashboard to enable a user to control their Philips Hue products from their desktop or from a Raspberry Pi touchscreen.
-                        HueDeck is built with Python, Javascript, HTML, and CSS.</p>
+                            HueDeck is built with Python, Javascript, HTML, and CSS.</p>
                     </div>
                     <div class="col-md-5">
                         <img class="featurette-image img-fluid mx-auto" src="HueDeck.png" width="1000" height="800" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </div>
-                </div>
-                <hr class="featurette-divider">
-                <h1 class="education">Education</h1>
-                <div class="row featurette">
+                </div> &nbsp;
+                <h1 class="project-header">Education</h1>
+                <div class="row featurette project">
                     <div class="col-md-7">
                         <img class="featurette-image img-fluid RU" src="RUNB_S_RED_GRAY.png" width="500" height="150" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <img class="featurette-image img-fluid mx-auto bergen text-start" src="BCC-Seal.jpg" width="250" height="250" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -102,11 +111,16 @@
                         <textarea type="text" name="comment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                         <label for="floatingTextarea">Comments</label>
                     </div>
-                    <button type="submit" value="Send" class="btn btn-primary">Submit</button>
+                    <div class="row">
+                        <div class="text-center">
+                            <button type="submit" value="Send" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+
                 </form>
             </div>
         </div>
-    </main>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
