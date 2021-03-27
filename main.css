@@ -1,7 +1,7 @@
 
 .profile {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     background: rgb(116,88,221);
     min-width: 100%;
     min-height: 60vh;
@@ -10,7 +10,7 @@
 
 .project-stack {
     border-radius: 3px;
-    box-shadow: 0px 1px 5px rgb(71, 71, 71);
+    box-shadow: 0px 1px 3px rgb(71, 71, 71);
     margin: 5px;
     display: flex;
     justify-content: space-around;
@@ -28,6 +28,32 @@
     padding-top: 10px;
 }
 
+.my-info-title {
+    color: white;
+    font-size: 16px;
+    font-family: SFUIDisplay, -apple-system, sans-serif;
+}
+
+dl {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-family: SFUIDisplay, -apple-system, sans-serif;
+    color: white;
+}
+
+dt {
+    float: left;
+    font-family: SFUIDisplay, -apple-system, sans-serif;
+    color: white;
+}
+
+dl dd {
+    display: block;
+    margin-left: 0;
+    padding-left: 75px;
+    font-family: SFUIDisplay, -apple-system, sans-serif;
+    color: white;
+}
 
 .welcome {
     margin: 4px;
@@ -43,7 +69,9 @@
 }
 
 .name {
+    padding-top: 10px;
     text-align: start;
+    color: white;
 }
 
 .intro-pic {
@@ -72,6 +100,10 @@ h1 {
 }
 
 h4 {
+    font-family: SFUIDisplay, -apple-system, sans-serif;
+}
+
+h5 {
     font-family: SFUIDisplay, -apple-system, sans-serif;
 }
 
