@@ -1,6 +1,7 @@
 
 .profile {
     padding-top: 100px;
+    padding-bottom: 50px;
     background: rgb(116,88,221);
     min-width: 100%;
     min-height: 60vh;
@@ -75,7 +76,7 @@ h4 {
 }
 
 .project-header {
-    padding: 20px;
+    padding-top: 75px;
 }
 .button-primary {
     padding-bottom: 10px;
